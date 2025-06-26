@@ -18,23 +18,25 @@ Such configuration guarantees that the system will constantly strive for correct
 
 # Instruction For Setting Up 
 
-1. Clone the github repo
-   
+1. Clone the GitHub repository:
+
    ```bash
    git clone https://github.com/pohrselvan/Classification-using-langgraph
 
-2. Navigate to the directory
-   
-   ```bash
-    cd Classification_using_langgraph 
+2. Navigate to the repo:
 
-3. I have provided jupyter notebook for fine tunning the **Bert** model run it before the
-   
-  ```bash
+   ```bash
+   cd Classification_using_langgraph
+
+3. I have provided the jupyter notebook containg the scripts for finetunning the **Bert** Model:
+
+   ```bash
    fine_tunning.ipynb
 
 
-4. Run the langgraph script
+4. Run the Text classification Script:
 
-  ```bash
+   ```bash
    python3 langgraph_chatbot.py
+
+# Th
