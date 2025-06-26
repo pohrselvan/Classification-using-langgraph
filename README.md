@@ -33,8 +33,12 @@ Such configuration guarantees that the system will constantly strive for correct
    ```bash
    fine_tunning.ipynb
 
+4. Before Running the main script you need run the llama model once using ollama.
 
-4. Run the Text classification Script:
+   ```bash
+   ollama.run("llama3.2")
+
+5. Run the Text classification Script:
 
    ```bash
    python3 langgraph_chatbot.py
@@ -42,3 +46,7 @@ Such configuration guarantees that the system will constantly strive for correct
 ## Graph 
 
 ![Screenshot from 2025-06-26 16-40-18](https://github.com/user-attachments/assets/210b6f89-7b03-4f81-939f-87e0bde1fac8)
+
+## Resources
+1. Langgraph
+   
