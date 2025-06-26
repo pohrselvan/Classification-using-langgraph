@@ -15,3 +15,16 @@ The key points are:
   - **AI-fallback:** Instead of human input, there is an AI-fallback where the pipeline can be switched to an alternate AI that is powered by an **LLaMA 3.2** and locally hosted through an **Ollama** framework.
 
 Such configuration guarantees that the system will constantly strive for correctness either through high-confidence automation of classification or through clarification procedures on uncertainty situations.
+
+# Instruction For Setting Up 
+
+1. Create a directory
+   `mkdir task-2
+   cd task-2`
+   
+2. Clone the repo
+   `git clone https://github.com/pohrselvan/Classification-using-langgraph`
+
+3. I have provided jupyter notebook for fine tunning the **Bert** model run it before the `langgraph_chatbot.py`
+4. Run the langgraph script
+   `python3 langgraph_chatbot.py`
