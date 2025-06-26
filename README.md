@@ -24,12 +24,15 @@ Such configuration guarantees that the system will constantly strive for correct
    git clone https://github.com/pohrselvan/Classification-using-langgraph
 
 2. Navigate to the directory
+   
    ```bash
-   cd Classification_using_langgraph 
+    cd Classification_using_langgraph 
 
 3. I have provided jupyter notebook for fine tunning the **Bert** model run it before the
+   
   ```bash
    fine_tunning.ipynb
+
 4. Run the langgraph script
   ```bash
    python3 langgraph_chatbot.py
