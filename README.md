@@ -22,7 +22,6 @@ Such configuration guarantees that the system will constantly strive for correct
    
    ```bash
    git clone https://github.com/pohrselvan/Classification-using-langgraph
-   ```
 
 3. I have provided jupyter notebook for fine tunning the **Bert** model run it before the `langgraph_chatbot.py`
 4. Run the langgraph script
