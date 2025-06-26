@@ -4,14 +4,14 @@ For this Project, I have built a **text classification** system using **BERT** e
 
 The key points are:
 
--**Transformer-based Classifier:** A fine tunned BERT model handles the core classification task.
+- **Transformer-based Classifier:** A fine tunned BERT model handles the core classification task.
 
--**The LangGraph Workflow:** Transitions between nodes such as inference, confidence tests, and fallbacks are performed using LangGraph, and decision flows are run using LangGraph.
+- **The LangGraph Workflow:** Transitions between nodes such as inference, confidence tests, and fallbacks are performed using LangGraph, and decision flows are run using LangGraph.
 
--**Fallback Strategy:**
+- **Fallback Strategy:**
 
--**Human-in-the-loop fallback:** In the event that confidence is low from the model, it will seek user clarification to avoid misclassification.
+- **Human-in-the-loop fallback:** In the event that confidence is low from the model, it will seek user clarification to avoid misclassification.
 
--**AI-fallback:** Instead of human input, there is an AI-fallback where the pipeline can be switched to an alternate AI that is powered by an **LLaMA 3.2** and locally hosted through an **Ollama** framework.
+- **AI-fallback:** Instead of human input, there is an AI-fallback where the pipeline can be switched to an alternate AI that is powered by an **LLaMA 3.2** and locally hosted through an **Ollama** framework.
 
 Such configuration guarantees that the system will constantly strive for correctness either through high-confidence automation of classification or through clarification procedures on uncertainty situations.
