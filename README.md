@@ -16,7 +16,7 @@ The key points are:
 
 Such configuration guarantees that the system will constantly strive for correctness either through high-confidence automation of classification or through clarification procedures on uncertainty situations.
 
-# Instruction For Setting Up 
+## Instruction For Setting Up 
 
 1. Clone the GitHub repository:
 
@@ -39,4 +39,7 @@ Such configuration guarantees that the system will constantly strive for correct
    ```bash
    python3 langgraph_chatbot.py
 
-# Th
+## Graph 
+
+![Screenshot from 2025-06-26 16-40-18](https://github.com/user-attachments/assets/210b6f89-7b03-4f81-939f-87e0bde1fac8)
+![Screenshot from 2025-06-26 16-40-18](https://github.com/user-attachments/assets/210b6f89-7b03-4f81-939f-87e0bde1fac8)
