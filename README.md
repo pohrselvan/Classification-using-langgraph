@@ -33,7 +33,7 @@ Such configuration guarantees that the system will constantly strive for correct
    ```bash
    fine_tunning.ipynb
 
-4. Before Running the main script you need run the llama model once using ollama.
+4. Before Running the main script you need run the llama model once using ollama.(**Note:** You should a ollama account for this)
 
    ```bash
    ollama.run("llama3.2")
@@ -48,5 +48,5 @@ Such configuration guarantees that the system will constantly strive for correct
 ![Screenshot from 2025-06-26 16-40-18](https://github.com/user-attachments/assets/210b6f89-7b03-4f81-939f-87e0bde1fac8)
 
 ## Resources
-1. Langgraph
+1. Langgraph :- https://youtu.be/jGg_1h0qzaM?si=AmT7Z7d74_0j4jqz
    
